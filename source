@@ -3931,7 +3931,7 @@ function library:CreateWindow(options, ...)
 				labelHeadline.Text = (labelName and tostring(labelName)) or "Empty Text"
 				labelHeadline.TextColor3 = library.colors.elementText
 				colored[1 + #colored] = {labelHeadline, "TextColor3", "elementText"}
-				labelHeadline.TextSize = 14
+				labelHeadline.TextSize = 12
 				labelHeadline.TextXAlignment = Enum.TextXAlignment.Left
 				labelPositioner.Name = "labelPositioner"
 				labelPositioner.Parent = newLabel
